@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contáctenos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Contáctenos</h1>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="survey.html">Crear encuesta</a>
+    <a href="contact-us.html">Contáctenos</a>
+</nav>
+
+<main>
+    <form>
+
+        <section>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </section>
+
+        <section>
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required>
+        </section>
+
+        <section>
+            <p>Motivo de contacto:</p>
+            <input type="radio" id="r1" name="motivo">
+            <label for="r1">Consulta</label>
+
+            <input type="radio" id="r2" name="motivo">
+            <label for="r2">Sugerencia</label>
+
+            <input type="radio" id="r3" name="motivo">
+            <label for="r3">Problema</label>
+        </section>
+
+        <section>
+            <p>Intereses:</p>
+            <input type="checkbox" id="c1" name="intereses">
+            <label for="c1">Programación</label>
+
+            <input type="checkbox" id="c2" name="intereses">
+            <label for="c2">IA</label>
+
+            <input type="checkbox" id="c3" name="intereses">
+            <label for="c3">Bases de datos</label>
+        </section>
+
+        <section>
+            <label for="tipo">Tipo de usuario:</label>
+            <select id="tipo" name="tipo">
+                <option>Estudiante</option>
+                <option>Profesor</option>
+                <option>Profesional</option>
+            </select>
+        </section>
+
+        <section>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+        </section>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</main>
+
+</body>
+</html>
